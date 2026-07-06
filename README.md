@@ -31,47 +31,7 @@ The business required a scalable and automated solution to:
 The platform was designed using an **event-driven, loosely coupled architecture** on Microsoft Azure to enable scalable and resilient fraud processing.
 
 ## High-Level Workflow
-
-```text
-Customer creates Loan / Updates Details
-                │
-                ▼
-      Front-End Applications
-                │
-        Publish Event
-                │
-                ▼
-        Azure Service Bus
-                │
-                ▼
-     Fraud Detection Listener
-                │
-      Calls Core System APIs
-                │
-                ▼
-     Customer Matching Service
-                │
-                ▼
-          Rules Engine
-                │
-      Match Threshold Reached?
-         ┌────────┴────────┐
-         │                 │
-        No                Yes
-         │                 │
-         ▼                 ▼
-      Complete      Publish Fraud Event
-                            │
-                            ▼
-              Dynamics 365 CRM Listener
-                            │
-                   Backend API Calls
-                            │
-                            ▼
-              Create Fraud Investigation Case
-```
-
----
+<img src="./Images/HLD/fraudDetection.png?&style=for-the-badge&logoColor=white" />
 
 ## Architecture Principles
 
