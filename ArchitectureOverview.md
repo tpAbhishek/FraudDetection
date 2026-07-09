@@ -1,4 +1,9 @@
 
+## Trade-Offs
+Fraud detection systems require balancing high recall, which catches more fraud but increases false positives, against precise, low-recall models. System trade-offs involve choosing between real-time processing for instant detection or batch processing for lower costs, as well as managing API latency versus feature complexity.
+
+---
+
 ## Key Architecture Decisions
 
 ### Event-Driven Processing
