@@ -90,7 +90,7 @@ Implemented event-based integration with Microsoft Dynamics 365 CRM, automatical
 
 ## My Responsibilities
 
-As the **Lead Solution Architect**, I was responsible for:
+As the **Lead Architect**, I was responsible for:
 
 - Designing the end-to-end solution architecture.
 - Defining the target architecture and integration strategy.
